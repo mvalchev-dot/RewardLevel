@@ -1,6 +1,16 @@
 {
     "version":  "0.2.0",
     "configurations":  [
+        
+        {
+            "name": "snapshotInitialize: Microsoft production cloud",
+            "type": "al",
+            "request": "snapshotInitialize",
+            "environmentType": "Production",
+            "environmentName": "production",
+            "breakOnNext": "WebClient",
+            "executionContext": "DebugAndProfile"
+        },
                            {
                                "type":  "al",
                                "request":  "launch",
